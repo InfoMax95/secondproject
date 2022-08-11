@@ -1,12 +1,26 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view />
+    <MyHeader/>
+    <MyMain/>
+    <MyFooter/>
   </div>
 </template>
+
+<script>
+import MyHeader from './components/MyHeader.vue';
+import MyMain from './components/MyMain.vue';
+import MyFooter from './components/MyFooter.vue';
+
+export default{
+  name: 'App',
+  components: {
+    MyHeader,
+    MyMain,
+    MyFooter
+  }
+}
+</script>
+
 
 <style lang="scss">
 #app {
@@ -17,16 +31,5 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
