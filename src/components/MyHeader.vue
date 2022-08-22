@@ -1,6 +1,7 @@
 <template>
-  <header>
-    <nav>
+  <header class="container-fluid bg-dark">
+    <nav class="text-white p-4">
+      <a href="#" class="text-white me-5">MyWeb</a>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/contact">Contact</router-link>
@@ -18,11 +19,10 @@ export default {
 header {
 
   nav {
-    padding: 30px;
 
     a {
       font-weight: bold;
-      color: #2c3e50;
+      color: #fff;
 
       &.router-link-exact-active {
         color: #42b983;
