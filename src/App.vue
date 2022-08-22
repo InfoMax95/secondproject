@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1 class="text-white">ciaociacoaico</h1>
     <MyHeader/>
     <MyMain/>
     <MyFooter/>
