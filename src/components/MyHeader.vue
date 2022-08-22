@@ -42,6 +42,7 @@ export default {
 
 <style lang="scss">
 header {
+  height: 100px;
   position: fixed;
   top: 0px;
   nav {
