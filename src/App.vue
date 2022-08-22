@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1 class="text-white">ciaociacoaico</h1>
     <MyHeader/>
     <MyMain/>
     <MyFooter/>
@@ -27,9 +28,7 @@ export default{
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  // text-align: center;
+  // color: #2c3e50;
 }
-
-
 </style>
