@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <MyHeader/>
+    <MyCarousel/>
     <MyMain/>
     <MyFooter/>
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 import MyHeader from './components/MyHeader.vue';
+import MyCarousel from './components/MyCarousel.vue';
 import MyMain from './components/MyMain.vue';
 import MyFooter from './components/MyFooter.vue';
 
@@ -15,6 +17,7 @@ export default{
   name: 'App',
   components: {
     MyHeader,
+    MyCarousel,
     MyMain,
     MyFooter
   }
